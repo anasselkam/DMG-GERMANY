@@ -31,8 +31,8 @@ const MenuData = [
 ]
 function Navbar() {
   return <>
-    <nav className='bg-black text-white py-3'>
-        <div className="container flex justify-between ">
+    <nav className=' text-white '>
+        <div className=" bg-black/20  backrop-blur-sm rounded-full py-3 container flex justify-between ">
             {/* Logo section  */}
             <div>
                 <h1 className="text-2xl font-bold max-w-[120px]"> <span className='text-yellow-400'>DMG</span><span className='text-red-600'>GERMANY</span></h1>
